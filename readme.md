@@ -10,7 +10,7 @@ cd /path/to/the/project/directory/
 ```
 And run the next command, please:
 ```bash
-export PYTHONPATH=`pwd`/src:
+export PYTHONPATH=$PYTHONPATH:`pwd`/src
 ```
 ## Script running
 Go to the project directory:
